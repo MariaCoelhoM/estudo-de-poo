@@ -1,0 +1,15 @@
+/workspaces/estudo-de-poo/MeuProjeto/bin/Debug/net10.0/MeuProjeto
+/workspaces/estudo-de-poo/MeuProjeto/bin/Debug/net10.0/MeuProjeto.deps.json
+/workspaces/estudo-de-poo/MeuProjeto/bin/Debug/net10.0/MeuProjeto.runtimeconfig.json
+/workspaces/estudo-de-poo/MeuProjeto/bin/Debug/net10.0/MeuProjeto.dll
+/workspaces/estudo-de-poo/MeuProjeto/bin/Debug/net10.0/MeuProjeto.pdb
+/workspaces/estudo-de-poo/MeuProjeto/obj/Debug/net10.0/MeuProjeto.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/estudo-de-poo/MeuProjeto/obj/Debug/net10.0/MeuProjeto.AssemblyInfoInputs.cache
+/workspaces/estudo-de-poo/MeuProjeto/obj/Debug/net10.0/MeuProjeto.AssemblyInfo.cs
+/workspaces/estudo-de-poo/MeuProjeto/obj/Debug/net10.0/MeuProjeto.csproj.CoreCompileInputs.cache
+/workspaces/estudo-de-poo/MeuProjeto/obj/Debug/net10.0/MeuProjeto.sourcelink.json
+/workspaces/estudo-de-poo/MeuProjeto/obj/Debug/net10.0/MeuProjeto.dll
+/workspaces/estudo-de-poo/MeuProjeto/obj/Debug/net10.0/refint/MeuProjeto.dll
+/workspaces/estudo-de-poo/MeuProjeto/obj/Debug/net10.0/MeuProjeto.pdb
+/workspaces/estudo-de-poo/MeuProjeto/obj/Debug/net10.0/MeuProjeto.genruntimeconfig.cache
+/workspaces/estudo-de-poo/MeuProjeto/obj/Debug/net10.0/ref/MeuProjeto.dll
