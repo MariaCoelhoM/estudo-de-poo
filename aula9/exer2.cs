@@ -6,9 +6,6 @@ Personagem também pode atacar outro Personagem;
 seguida;
 • Arqueiro: Possui uma quantidade de flechas. Ao atacar, gasta 1 flecha.
 Não pode atacar se não tiver flechas o suficiente;*/
-
-/*chat vc pode fazer esse código pra mim por favor e adicionar comentários explicando o codigo por favor ->*/
-
 using System;
 
 // Classe Pai: Personagem
