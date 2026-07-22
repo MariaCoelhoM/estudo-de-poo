@@ -1,0 +1,75 @@
+/*Uma biblioteca ainda utiliza folha e papel para realizar o cadastro de seus livros, e também
+a relação de empréstimo de livros para pessoas, e está procurando você para desenvolver
+um software que faça isso de forma mais fácil.
+Você deve criar um programa que permita que a biblioteca consulte o acervo de livros
+disponíveis para alugar. Um livro possui título, autor e ano de publicação. Para alugar um
+livro, uma pessoa deve ter um nome e um cpf.
+Uma biblioteca só possui uma certa quantidade de livros. Deve poder existir dois livros
+iguais em uma biblioteca. Por exemplo, uma biblioteca pode ter 2 livros de Cálculo do
+Stewart e 3 livros de Algoritmos do Cormen.
+Deve ser possível adicionar novos livros ao catálogo, ou remover livros do catálogo. Uma
+pessoa deve poder alugar um livro, caso ele esteja no catálogo. Ao alugar um livro, deve ser
+contabilizado 1 unidade a menos no catálogo.
+Uma pessoa só deve poder alugar um livro caso não tenha nenhum livro alugado ainda.*/
+using System;
+class Livro
+{
+    // Atributos
+    public string Titulo;
+    public string Autor;
+    public int AnoPublicacao;
+    public string Nome;
+    public int Cpf;
+    // Método
+    public void Relatorio()
+    {
+        if(Salario <= 2000)
+        {
+            Console.WriteLine("Sem desconto!");
+            Total = Salario;
+        }
+        else if(Salario >= 2000.01 && Salario <= 3000)
+        {
+            Console.WriteLine("Seu desconto é de 7,5%");
+            Total = Salario - (Salario * 0.075);
+        }
+        else if(Salario >= 3000.01 && Salario <= 4000)
+        {
+            Console.WriteLine("Seu desconto é de 15%");
+            Total = Salario - (Salario * 0.15);
+        }
+         else if(Salario >= 4000.01 && Salario <= 5000)
+        {
+            Console.WriteLine("Seu desconto é de 22,5%");
+            Total = Salario - (Salario * 0.225);
+        }
+        else if(Salario >= 5000.01)
+        {
+            Console.WriteLine("Seu desconto é de 27,5%");
+            Total = Salario - (Salario * 0.275);
+        }
+    }
+}
+
+class Program : Funcionario
+{
+    static void Main(string[] args)
+    {
+        // Criando um objeto da classe Pessoa
+        Livro livro = new Livro();
+
+        Console.WriteLine("Digite seu nome: ");
+        livro.Nome = Console.ReadLine();
+
+        Console.WriteLine("Digite seu cpf: ");
+        livro.Cpf = int.Parse(Console.ReadLine());
+
+        Console.WriteLine();
+        Console.WriteLine("----------Relatorio:------------");
+        Console.WriteLine($"Funcionário: {funcionario.Nome}");
+        Console.WriteLine($"CPF: {funcionario.Cpf}");
+        Console.WriteLine($"Salário bruto: R${funcionario.Salario}");
+        Console.WriteLine($"Salário líquido: R${funcionario.Total}");
+        funcionario.Relatorio();
+    }
+}
